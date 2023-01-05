@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\mba12\OneDrive - Ecolab\Documents\javaprograms\snowflake\demo\src\main\java\com\sn\App.java">
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="39" severity="error" message="Line is longer than 120 characters (found 273)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="40" severity="error" message="Line is longer than 120 characters (found 274)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" severity="error" message="Line is longer than 120 characters (found 274)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="42" severity="error" message="Line is longer than 120 characters (found 275)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="42" column="267" severity="error" message="Comment has incorrect indentation level 266, expected is 8, indentation should be the same level as line 43." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="54" column="85" severity="error" message="Comment has incorrect indentation level 84, expected is 12, indentation should be the same level as line 53." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="C:\Users\mba12\OneDrive - Ecolab\Documents\javaprograms\snowflake\demo\src\test\java\com\sn\AppTest.java">
+</file>
+</checkstyle>

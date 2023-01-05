@@ -1,0 +1,19 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:customsnowflake="http://www.mulesoft.org/schema/mule/customsnowflake"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/customsnowflake http://www.mulesoft.org/schema/mule/customsnowflake/current/mule-customsnowflake.xsd">
+
+    <customsnowflake:config name="config" configId="configId">
+        <customsnowflake:connection requiredParameter="aValue" />
+    </customsnowflake:config>
+
+    <flow name="sayHiFlow">
+        <customsnowflake:say-hi person="Mariano Gonzalez"/>
+    </flow>
+
+    <flow name="retrieveInfoFlow">
+        <customsnowflake:retrieve-info config-ref="config"/>
+    </flow>
+
+</mule>
